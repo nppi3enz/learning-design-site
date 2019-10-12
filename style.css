@@ -1,0 +1,50 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    line-height: 0em;
+}
+
+.slide1 .bg,
+.slide2 .bg,
+.slide3 .bg,
+.slide4 .bg,
+.slide5 .bg,
+.slide6 .bg {
+    width: 100%;
+}
+
+.slide1 {
+    background: #dadada;
+}
+
+.slide2 {
+    background: #636363;
+}
+
+.slide3 {
+    background: #252525;
+}
+
+.slide4 {
+    background: #efefef;
+}
+
+.slide5 {
+    background: #b7b7b7;
+}
+
+.slide6 {
+    background: #9c9c9c;
+}
+
+.earth {
+    display: block;
+    width: 100%;
+    background: transparent url('images/earth.png') no-repeat;
+    background-size: contain;
+    height: 22vw;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
