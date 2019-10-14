@@ -400,6 +400,14 @@ body {
     z-index: 3;
 }
 
+.frame-s {
+    position: absolute;
+    top: 51.2vw;
+    left: 55.3vw;
+    width: 4.2vw;
+    z-index: 3;
+}
+
 .list-4c {
     position: absolute;
     top: 10.4vw;
