@@ -14,6 +14,10 @@ body {
     width: 100%;
 }
 
+#app {
+    overflow: hidden;
+}
+
 .slide1 {
     background: #dadada;
 }
@@ -38,6 +42,30 @@ body {
     background: #9c9c9c;
 }
 
+.student {
+    position: absolute;
+    top: 38.3vw;
+    left: 22.2vw;
+    width: 54.9vw;
+    z-index: 2;
+}
+
+.balloon {
+    position: absolute;
+    top: 9.4vw;
+    left: 17.5vw;
+    width: 9vw;
+    z-index: 2;
+}
+
+.airplane {
+    position: absolute;
+    top: 17.5vw;
+    right: 22.0vw;
+    width: 10vw;
+    z-index: 2;
+}
+
 .earth {
     display: block;
     width: 100%;
@@ -47,4 +75,628 @@ body {
     position: absolute;
     top: 0;
     z-index: 1;
+    opacity: 0.5;
+}
+
+.cloud {
+    display: block;
+    width: 120%;
+    margin-top: 0vw;
+    height: 62vw;
+    background: url(images/cloud.png) no-repeat;
+    background-size: contain;
+    background-position-x: -10vw;
+}
+
+.cloud2 {
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 130%;
+    margin-top: 0vw;
+    height: 101vw;
+    background: url(images/cloud2.png) no-repeat;
+    background-size: cover;
+    background-position-x: -17vw;
+    z-index: 2;
+}
+
+.bird {
+    position: absolute;
+    top: 15.9vw;
+    left: 33.8vw;
+    width: 30.2vw;
+    z-index: 2;
+}
+
+.bg-circle {
+    /* text-align: center; */
+    display: block;
+    top: 7.5vw;
+    left: 26.5vw;
+    width: 43vw;
+    height: 21vw;
+    position: absolute;
+    z-index: 3;
+    background: transparent url(images/bg_circle.svg) no-repeat;
+    background-size: contain;
+}
+
+.bg-circle .circle {
+    position: absolute;
+    width: 20vw;
+    left: 12.8vw;
+    top: 0.3vw;
+    z-index: 3;
+    /* -webkit-animation: spin-back 10s linear infinite;
+    -moz-animation: spin-back 10s linear infinite;
+    animation: spin-back 10s linear infinite; */
+}
+
+.bg-circle .front {
+    position: absolute;
+    width: 20vw;
+    left: 12.8vw;
+    z-index: 4;
+    top: 0.3vw;
+    /* -webkit-animation: spin 10s linear infinite;
+    -moz-animation: spin 10s linear infinite;
+    animation: spin 10s linear infinite; */
+}
+
+.satellite {
+    position: absolute;
+    top: 39.3vw;
+    left: 8vw;
+    width: 11vw;
+}
+
+.astronaut {
+    position: absolute;
+    top: 36.8vw;
+    right: 0;
+    width: 15.2vw;
+}
+
+.slide1,
+.slide2,
+.slide3,
+.slide4,
+.slide5,
+.slide6 {
+    position: relative;
+}
+
+.slide1 .overlay,
+.slide2 .overlay,
+.slide3 .overlay,
+.slide4 .overlay,
+.slide5 .overlay,
+.slide6 .overlay {
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+.rocket {
+    position: absolute;
+    left: 25.6vw;
+    width: 6.5vw;
+    z-index: 1;
+    top: 12vw;
+}
+
+.balloon2 {
+    position: absolute;
+    right: 20.9vw;
+    width: 8vw;
+    z-index: 1;
+    top: 18.4vw;
+}
+
+.line1 {
+    position: absolute;
+    top: 9.3vw;
+    left: 0;
+    width: 9vw;
+}
+
+.line2 {
+    position: absolute;
+    top: 9.4vw;
+    left: 0;
+    width: 22.5vw;
+}
+
+.line3 {
+    position: absolute;
+    top: 19.8vw;
+    right: 0;
+    width: 21.4vw;
+}
+
+.line4 {
+    position: absolute;
+    top: 28.5vw;
+    right: 0;
+    width: 7.7vw;
+}
+
+.line5 {
+    position: absolute;
+    top: 20.2vw;
+    left: 0;
+    width: 20.3vw;
+}
+
+.line6 {
+    position: absolute;
+    top: 23.1vw;
+    left: 3.4vw;
+    width: 30.7vw;
+}
+
+.line7 {
+    position: absolute;
+    top: 53.3vw;
+    right: 0;
+    width: 22.6vw;
+}
+
+.line8 {
+    position: absolute;
+    top: 61.8vw;
+    right: 0;
+    width: 9.0vw;
+}
+
+.line9 {
+    position: absolute;
+    bottom: 18vw;
+    left: 0;
+    width: 25.3vw;
+}
+
+.line10 {
+    position: absolute;
+    bottom: 18vw;
+    left: 0;
+    width: 25.3vw;
+}
+
+.line11 {
+    position: absolute;
+    bottom: 52.9vw;
+    right: -9vw;
+    width: 38.3vw;
+}
+
+.line12 {
+    position: absolute;
+    bottom: 58vw;
+    right: -6px;
+    width: 20.3vw;
+}
+
+.line13 {
+    position: absolute;
+    top: 49.7vw;
+    left: 0;
+    width: 31.3vw;
+}
+
+.line14 {
+    position: absolute;
+    top: 56.7vw;
+    left: 6.7vw;
+    width: 21.3vw;
+}
+
+.line15 {
+    position: absolute;
+    bottom: -0.1vw;
+    right: -9vw;
+    width: 38.3vw;
+}
+
+.line16 {
+    position: absolute;
+    bottom: 5.2vw;
+    right: -6px;
+    width: 20.3vw;
+}
+
+.line17 {
+    position: absolute;
+    top: 53.2vw;
+    left: 0;
+    width: 25.3vw;
+}
+
+.line18 {
+    position: absolute;
+    top: 57.3vw;
+    left: 2.6vw;
+    width: 22.8vw;
+    z-index: 1;
+}
+
+.line19 {
+    position: absolute;
+    bottom: 59.7vw;
+    right: -16.7vw;
+    width: 38.3vw;
+}
+
+.line20 {
+    position: absolute;
+    bottom: 69.5vw;
+    right: -7px;
+    width: 12.3vw;
+}
+
+.line21 {
+    position: absolute;
+    top: 51.8vw;
+    left: 7.5vw;
+    width: 22.3vw;
+    z-index: 3;
+}
+
+.line22 {
+    position: absolute;
+    bottom: 30.1vw;
+    left: 229px;
+    width: 22.3vw;
+    z-index: 3;
+}
+
+.text2 {
+    width: 28.2vw;
+    position: absolute;
+    bottom: 17.5vw;
+    left: 35.2vw
+}
+
+.text3 {
+    width: 32vw;
+    position: absolute;
+    bottom: 71vw;
+    left: 33.2vw;
+    z-index: 3;
+}
+
+.text4 {
+    width: 32.9vw;
+    position: absolute;
+    top: 44.0vw;
+    left: 32.6vw;
+    z-index: 3;
+}
+
+.text5 {
+    width: 30.3vw;
+    position: absolute;
+    bottom: 39.5vw;
+    left: 34.2vw;
+    z-index: 3;
+}
+
+.text6 {
+    width: 32.3vw;
+    position: absolute;
+    bottom: 7.2vw;
+    left: 33.1vw;
+    z-index: 3;
+
+}
+
+
+.four-cs {
+    position: absolute;
+    top: 46.5vw;
+    left: 39.3vw;
+    width: 22vw;
+    z-index: 3;
+}
+
+.list-4c {
+    position: absolute;
+    top: 10.4vw;
+    left: 22vw;
+    width: 52vw;
+}
+
+.bg-hand {
+    display: block;
+    position: relative;
+    z-index: 2;
+    top: 26vw;
+    left: 26vw;
+    width: 46vw;
+    height: 61vw;
+}
+
+.text-hand {
+    position: absolute;
+    bottom: 1.1vw;
+    width: 27vw;
+    left: 10vw;
+}
+
+.hand {
+    width: 44vw;
+    left: 11.7vw;
+    position: absolute;
+    z-index: 3;
+
+}
+
+.overlay-hand {
+    position: absolute;
+    top: 11.5vw;
+    left: 1.1vw;
+    width: 44.1vw;
+    z-index: 5;
+}
+
+.outer-hand {
+    position: absolute;
+    width: 26.7vw;
+    top: 12.5vw;
+    left: 9.7vw;
+    z-index: 2;
+    /* -webkit-animation: spin-back 20s linear infinite;
+    -moz-animation: spin-back 20s linear infinite;
+    animation: spin-back 20s linear infinite; */
+}
+
+.inner-hand {
+    position: absolute;
+    width: 26.7vw;
+    top: 12.5vw;
+    left: 9.6vw;
+    z-index: 1;
+    /* -webkit-animation: spin 20s linear infinite;
+    -moz-animation: spin 20s linear infinite;
+    animation: spin 20s linear infinite; */
+}
+
+.footer-hand {
+    position: absolute;
+    height: 12vw;
+    top: 38.5vw;
+    left: 22.3vw;
+    z-index: 1;
+}
+
+.astronaut2 {
+    position: absolute;
+    left: 0;
+    top: 26.3vw;
+    width: 20.5vw;
+}
+
+.rocket2 {
+    position: absolute;
+    right: 21vw;
+    top: 32.7vw;
+    width: 8vw;
+}
+
+.rocket3 {
+    position: absolute;
+    left: 3.1vw;
+    bottom: 4.9vw;
+    width: 25vw;
+    z-index: 4;
+}
+
+.astronaut3 {
+    position: absolute;
+    right: 0;
+    bottom: 15.5vw;
+    width: 18vw;
+}
+
+.satellite2 {
+    position: absolute;
+    right: 32.3vw;
+    bottom: 20.4vw;
+    width: 11vw;
+    z-index: 3;
+}
+
+.triangle-left {
+    width: 14vw;
+    position: absolute;
+    top: 47.2vw;
+    left: 4.4vw;
+}
+
+.triangle-right {
+    width: 14vw;
+    position: absolute;
+    top: 47vw;
+    right: 5.3vw;
+}
+
+.bird2 {
+    width: 23.4vw;
+    position: absolute;
+    top: 36.7vw;
+    right: 11.0vw;
+}
+
+.slide2 .spin-circle {
+    position: relative;
+    display: block;
+    top: 47vw;
+    left: 24vw;
+    width: 14vw;
+}
+
+.slide2 .spin-circle .circle {
+    position: absolute;
+    width: 12.3vw;
+    left: 12.8vw;
+    top: 0.3vw;
+    z-index: 2;
+    /* -webkit-animation: spin-back 10s linear infinite;
+    -moz-animation: spin-back 10s linear infinite;
+    animation: spin-back 10s linear infinite; */
+}
+
+.slide2 .spin-circle .front {
+    position: absolute;
+    width: 12.3vw;
+    left: 12.8vw;
+    z-index: 2;
+    top: 0.3vw;
+    /* -webkit-animation: spin 10s linear infinite;
+    -moz-animation: spin 10s linear infinite;
+    animation: spin 10s linear infinite; */
+}
+
+.slide4 .circle1 {
+    position: absolute;
+    display: block;
+    width: 14.2vw;
+    height: 14.2vw;
+    bottom: 4.7vw;
+    left: 7.6vw;
+    z-index: 3;
+}
+
+.slide4 .circle2 {
+    position: absolute;
+    display: block;
+    width: 6.4vw;
+    height: 6.4vw;
+    bottom: 8.7vw;
+    right: 22.2vw;
+    z-index: 3;
+}
+
+.slide6 .circle1 {
+    position: absolute;
+    display: block;
+    width: 13.5vw;
+    height: 13.5vw;
+    top: 9.4vw;
+    left: 24.2vw;
+    z-index: 3;
+}
+
+.slide6 .circle2 {
+    position: absolute;
+    display: block;
+    width: 5.6vw;
+    height: 5.6vw;
+    top: 4.4vw;
+    right: 32.8vw;
+    z-index: 1;
+}
+
+.slide6 .circle3 {
+    position: absolute;
+    display: block;
+    width: 4.6vw;
+    height: 4.6vw;
+    top: 18.1vw;
+    right: 26.5vw;
+    z-index: 1;
+}
+
+
+.slide6 .circle4 {
+    position: absolute;
+    display: block;
+    width: 6.5vw;
+    height: 6.5vw;
+    bottom: 19.9vw;
+    left: 29.2vw;
+    z-index: 1;
+}
+
+.slide6 .circle5 {
+    position: absolute;
+    display: block;
+    width: 14.3vw;
+    height: 14.3vw;
+    bottom: 13.9vw;
+    right: 24.0vw;
+    z-index: 1;
+}
+
+.slide6 .header .bg {
+    position: absolute;
+    top: 6.2vw;
+    width: 57.4vw;
+    left: 20.2vw;
+    z-index: 3;
+}
+
+.slide6 .header .astronaut {
+    position: absolute;
+    top: -5.8vw;
+    width: 34.4vw;
+    left: 31.8vw;
+    z-index: 5;
+}
+
+.circle-template .inner-hand {
+    width: auto;
+    top: 0;
+    left: 0;
+    /* -webkit-animation: spin 10s linear infinite;
+    -moz-animation: spin 10s linear infinite;
+    animation: spin 10s linear infinite; */
+}
+
+.circle-template .outer-hand {
+    width: auto;
+    top: 0;
+    left: 0;
+    /* -webkit-animation: spin-back 20s linear infinite;
+    -moz-animation: spin-back 20s linear infinite;
+    animation: spin-back 20s linear infinite; */
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes spin-back {
+    100% {
+        -moz-transform: rotate(-360deg);
+    }
+}
+
+@-webkit-keyframes spin-back {
+    100% {
+        -webkit-transform: rotate(-360deg);
+    }
+}
+
+@keyframes spin-back {
+    100% {
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
 }
