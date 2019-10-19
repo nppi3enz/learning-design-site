@@ -52,9 +52,9 @@
                     left: 12.8vw;
                     top: 0.3vw;
                     z-index: 3;
-                    /* -webkit-animation: spin-back 10s linear infinite;
+                    -webkit-animation: spin-back 10s linear infinite;
                     -moz-animation: spin-back 10s linear infinite;
-                    animation: spin-back 10s linear infinite; */
+                    animation: spin-back 10s linear infinite;
                 }
 
                 .front {
@@ -63,9 +63,9 @@
                     left: 12.8vw;
                     z-index: 4;
                     top: 0.3vw;
-                    /* -webkit-animation: spin 10s linear infinite;
+                    -webkit-animation: spin 10s linear infinite;
                     -moz-animation: spin 10s linear infinite;
-                    animation: spin 10s linear infinite; */
+                    animation: spin 10s linear infinite;
                 }
             }
 
@@ -206,9 +206,9 @@
                     left: 12.8vw;
                     top: 0.3vw;
                     z-index: 2;
-                    /* -webkit-animation: spin-back 10s linear infinite;
-    -moz-animation: spin-back 10s linear infinite;
-    animation: spin-back 10s linear infinite; */
+                    -webkit-animation: spin-back 10s linear infinite;
+                    -moz-animation: spin-back 10s linear infinite;
+                    animation: spin-back 10s linear infinite;
                 }
 
                 .front {
@@ -217,9 +217,9 @@
                     left: 12.8vw;
                     z-index: 2;
                     top: 0.3vw;
-                    /* -webkit-animation: spin 10s linear infinite;
-    -moz-animation: spin 10s linear infinite;
-    animation: spin 10s linear infinite; */
+                    -webkit-animation: spin 10s linear infinite;
+                    -moz-animation: spin 10s linear infinite;
+                    animation: spin 10s linear infinite;
                 }
             }
         }
@@ -267,9 +267,9 @@
                     top: 12.5vw;
                     left: 9.7vw;
                     z-index: 2;
-                    /* -webkit-animation: spin-back 20s linear infinite;
-    -moz-animation: spin-back 20s linear infinite;
-    animation: spin-back 20s linear infinite; */
+                    -webkit-animation: spin-back 20s linear infinite;
+                    -moz-animation: spin-back 20s linear infinite;
+                    animation: spin-back 20s linear infinite;
                 }
 
                 .footer-hand {
@@ -656,9 +656,9 @@
     top: 12.5vw;
     left: 9.6vw;
     z-index: 1;
-    /* -webkit-animation: spin 20s linear infinite;
+    -webkit-animation: spin 20s linear infinite;
     -moz-animation: spin 20s linear infinite;
-    animation: spin 20s linear infinite; */
+    animation: spin 20s linear infinite;
 }
 
 .circle-template {
@@ -666,18 +666,18 @@
         width: auto;
         top: 0;
         left: 0;
-        /* -webkit-animation: spin 10s linear infinite;
-    -moz-animation: spin 10s linear infinite;
-    animation: spin 10s linear infinite; */
+        -webkit-animation: spin 10s linear infinite;
+        -moz-animation: spin 10s linear infinite;
+        animation: spin 10s linear infinite;
     }
 
     .outer-hand {
         width: auto;
         top: 0;
         left: 0;
-        /* -webkit-animation: spin-back 20s linear infinite;
-    -moz-animation: spin-back 20s linear infinite;
-    animation: spin-back 20s linear infinite; */
+        -webkit-animation: spin-back 20s linear infinite;
+        -moz-animation: spin-back 20s linear infinite;
+        animation: spin-back 20s linear infinite;
     }
 }
 
