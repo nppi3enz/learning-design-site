@@ -58,22 +58,60 @@
       position: absolute;
       top: 9.3vw;
       left: 0;
-      width: 9vw; }
+      width: 9vw;
+      -webkit-transition: -webkit-clip-path 1s;
+      transition: -webkit-clip-path 1s;
+      -o-transition: clip-path 1s;
+      transition: clip-path 1s;
+      transition: clip-path 1s, -webkit-clip-path 1s;
+      -webkit-clip-path: circle(0.1% at 0 0);
+      clip-path: circle(0.1% at 0 0);
+      -webkit-animation: open-left 1s;
+      animation: open-left 1s;
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards; }
     #media-animate-page .slide1 .overlay .line2 {
       position: absolute;
       top: 9.4vw;
       left: 0;
-      width: 22.5vw; }
+      width: 22.5vw;
+      -webkit-transition: -webkit-clip-path 1s;
+      transition: -webkit-clip-path 1s;
+      -o-transition: clip-path 1s;
+      transition: clip-path 1s;
+      transition: clip-path 1s, -webkit-clip-path 1s;
+      -webkit-clip-path: circle(0.1% at 0 0);
+      clip-path: circle(0.1% at 0 0);
+      -webkit-animation: open-left 1s ease 0.5s 1 normal forwards;
+      animation: open-left 1s ease 0.5s 1 normal forwards; }
     #media-animate-page .slide1 .overlay .line3 {
       position: absolute;
       top: 19.8vw;
       right: 0;
-      width: 21.4vw; }
+      width: 21.4vw;
+      -webkit-transition: -webkit-clip-path 1s;
+      transition: -webkit-clip-path 1s;
+      -o-transition: clip-path 1s;
+      transition: clip-path 1s;
+      transition: clip-path 1s, -webkit-clip-path 1s;
+      -webkit-clip-path: circle(0.1% at 0 0);
+      clip-path: circle(0.1% at 0 0);
+      -webkit-animation: open-left 1s ease 1s 1 normal forwards;
+      animation: open-left 1s ease 1s 1 normal forwards; }
     #media-animate-page .slide1 .overlay .line4 {
       position: absolute;
       top: 28.5vw;
       right: 0;
-      width: 7.7vw; }
+      width: 7.7vw;
+      -webkit-transition: -webkit-clip-path 1s;
+      transition: -webkit-clip-path 1s;
+      -o-transition: clip-path 1s;
+      transition: clip-path 1s;
+      transition: clip-path 1s, -webkit-clip-path 1s;
+      -webkit-clip-path: circle(0.1% at 0 0);
+      clip-path: circle(0.1% at 0 0);
+      -webkit-animation: open-left 1s ease 1.5s 1 normal forwards;
+      animation: open-left 1s ease 1.5s 1 normal forwards; }
     #media-animate-page .slide1 .overlay .satellite {
       position: absolute;
       top: 39.3vw;
@@ -114,22 +152,62 @@
       position: absolute;
       top: 20.2vw;
       left: 0;
-      width: 20.3vw; }
+      width: 20.3vw;
+      -webkit-transition: -webkit-clip-path 1s;
+      transition: -webkit-clip-path 1s;
+      -o-transition: clip-path 1s;
+      transition: clip-path 1s;
+      transition: clip-path 1s, -webkit-clip-path 1s;
+      -webkit-clip-path: circle(0.1% at 0 0);
+      clip-path: circle(0.1% at 0 0); }
+      #media-animate-page .slide2 .overlay .line5.active {
+        -webkit-animation: open-left 1s ease 0s 1 normal forwards;
+        animation: open-left 1s ease 0s 1 normal forwards; }
     #media-animate-page .slide2 .overlay .line6 {
       position: absolute;
       top: 23.1vw;
       left: 3.4vw;
-      width: 30.7vw; }
+      width: 30.7vw;
+      -webkit-transition: -webkit-clip-path 1s;
+      transition: -webkit-clip-path 1s;
+      -o-transition: clip-path 1s;
+      transition: clip-path 1s;
+      transition: clip-path 1s, -webkit-clip-path 1s;
+      -webkit-clip-path: circle(0.1% at 0 0);
+      clip-path: circle(0.1% at 0 0); }
+      #media-animate-page .slide2 .overlay .line6.active {
+        -webkit-animation: open-left 1s ease 0.5s 1 normal forwards;
+        animation: open-left 1s ease 0.5s 1 normal forwards; }
     #media-animate-page .slide2 .overlay .line7 {
       position: absolute;
       top: 53.3vw;
       right: 0;
-      width: 22.6vw; }
+      width: 22.6vw;
+      -webkit-transition: -webkit-clip-path 1s;
+      transition: -webkit-clip-path 1s;
+      -o-transition: clip-path 1s;
+      transition: clip-path 1s;
+      transition: clip-path 1s, -webkit-clip-path 1s;
+      -webkit-clip-path: circle(0.1% at 0 0);
+      clip-path: circle(0.1% at 0 0); }
+      #media-animate-page .slide2 .overlay .line7.active {
+        -webkit-animation: open-left 1s ease 1.0s 1 normal forwards;
+        animation: open-left 1s ease 1.0s 1 normal forwards; }
     #media-animate-page .slide2 .overlay .line8 {
       position: absolute;
       top: 61.8vw;
       right: 0;
-      width: 9.0vw; }
+      width: 9.0vw;
+      -webkit-transition: -webkit-clip-path 1s;
+      transition: -webkit-clip-path 1s;
+      -o-transition: clip-path 1s;
+      transition: clip-path 1s;
+      transition: clip-path 1s, -webkit-clip-path 1s;
+      -webkit-clip-path: circle(0.1% at 0 0);
+      clip-path: circle(0.1% at 0 0); }
+      #media-animate-page .slide2 .overlay .line8.active {
+        -webkit-animation: open-left 1s ease 1.5s 1 normal forwards;
+        animation: open-left 1s ease 1.5s 1 normal forwards; }
     #media-animate-page .slide2 .overlay .four-cs {
       position: absolute;
       top: 46.5vw;
@@ -224,16 +302,66 @@
         width: 25.3vw; }
   #media-animate-page .slide4 {
     background: #efefef; }
-    #media-animate-page .slide4 .line11 {
+    #media-animate-page .slide4 .line11l {
       position: absolute;
-      bottom: 52.9vw;
+      left: 3vw;
+      top: -20vw;
+      width: 21.3vw;
+      -webkit-transition: -webkit-clip-path 1s;
+      transition: -webkit-clip-path 1s;
+      -o-transition: clip-path 1s;
+      transition: clip-path 1s;
+      transition: clip-path 1s, -webkit-clip-path 1s;
+      -webkit-clip-path: circle(0.1% at 0 0);
+      clip-path: circle(0.1% at 0 0); }
+      #media-animate-page .slide4 .line11l.active {
+        -webkit-animation: open-left 1s ease 0.5s 1 normal forwards;
+        animation: open-left 1s ease 0.5s 1 normal forwards; }
+    #media-animate-page .slide4 .line12l {
+      position: absolute;
+      left: 0;
+      top: -24.3vw;
+      width: 25.3vw;
+      -webkit-transition: -webkit-clip-path 1s;
+      transition: -webkit-clip-path 1s;
+      -o-transition: clip-path 1s;
+      transition: clip-path 1s;
+      transition: clip-path 1s, -webkit-clip-path 1s;
+      -webkit-clip-path: circle(0.1% at 0 0);
+      clip-path: circle(0.1% at 0 0); }
+      #media-animate-page .slide4 .line12l.active {
+        -webkit-animation: open-left 1s ease 0.0s 1 normal forwards;
+        animation: open-left 1s ease 0.0s 1 normal forwards; }
+    #media-animate-page .slide4 .line11r {
+      position: absolute;
+      bottom: 52.7vw;
       right: -9vw;
-      width: 38.3vw; }
-    #media-animate-page .slide4 .line12 {
+      width: 38.3vw;
+      -webkit-transition: -webkit-clip-path 1s;
+      transition: -webkit-clip-path 1s;
+      -o-transition: clip-path 1s;
+      transition: clip-path 1s;
+      transition: clip-path 1s, -webkit-clip-path 1s;
+      -webkit-clip-path: circle(0.1% at 0 0);
+      clip-path: circle(0.1% at 0 0); }
+      #media-animate-page .slide4 .line11r.active {
+        -webkit-animation: open-left 1s ease 1.5s 1 normal forwards;
+        animation: open-left 1s ease 1.5s 1 normal forwards; }
+    #media-animate-page .slide4 .line12r {
       position: absolute;
       bottom: 58vw;
       right: -6px;
-      width: 20.3vw; }
+      width: 20.3vw;
+      -webkit-transition: -webkit-clip-path 1s;
+      transition: -webkit-clip-path 1s;
+      -o-transition: clip-path 1s;
+      transition: clip-path 1s;
+      transition: clip-path 1s, -webkit-clip-path 1s;
+      -webkit-clip-path: circle(0.1% at 0 0);
+      clip-path: circle(0.1% at 0 0); }
+      #media-animate-page .slide4 .line12r.active {
+        -webkit-animation: open-left 1s ease 2.0s 1 normal forwards;
+        animation: open-left 1s ease 2.0s 1 normal forwards; }
     #media-animate-page .slide4 .astronaut2 {
       position: absolute;
       left: 0;
@@ -269,35 +397,95 @@
       position: absolute;
       top: 49.7vw;
       left: 0;
-      width: 31.3vw; }
+      width: 31.3vw;
+      -webkit-transition: -webkit-clip-path 1s;
+      transition: -webkit-clip-path 1s;
+      -o-transition: clip-path 1s;
+      transition: clip-path 1s;
+      transition: clip-path 1s, -webkit-clip-path 1s;
+      -webkit-clip-path: circle(0.1% at 0 0);
+      clip-path: circle(0.1% at 0 0); }
+      #media-animate-page .slide4 .line13.active {
+        -webkit-animation: open-left 1s ease 0.0s 1 normal forwards;
+        animation: open-left 1s ease 0.0s 1 normal forwards; }
     #media-animate-page .slide4 .line14 {
       position: absolute;
       top: 56.7vw;
       left: 6.7vw;
-      width: 21.3vw; }
+      width: 21.3vw;
+      -webkit-transition: -webkit-clip-path 1s;
+      transition: -webkit-clip-path 1s;
+      -o-transition: clip-path 1s;
+      transition: clip-path 1s;
+      transition: clip-path 1s, -webkit-clip-path 1s;
+      -webkit-clip-path: circle(0.1% at 0 0);
+      clip-path: circle(0.1% at 0 0); }
+      #media-animate-page .slide4 .line14.active {
+        -webkit-animation: open-left 1s ease 0.5s 1 normal forwards;
+        animation: open-left 1s ease 0.5s 1 normal forwards; }
     #media-animate-page .slide4 .line15 {
       position: absolute;
       bottom: -0.1vw;
       right: -9vw;
-      width: 38.3vw; }
+      width: 38.3vw;
+      -webkit-transition: -webkit-clip-path 1s;
+      transition: -webkit-clip-path 1s;
+      -o-transition: clip-path 1s;
+      transition: clip-path 1s;
+      transition: clip-path 1s, -webkit-clip-path 1s;
+      -webkit-clip-path: circle(0.1% at 0 0);
+      clip-path: circle(0.1% at 0 0); }
+      #media-animate-page .slide4 .line15.active {
+        -webkit-animation: open-left 1s ease 1.5s 1 normal forwards;
+        animation: open-left 1s ease 1.5s 1 normal forwards; }
     #media-animate-page .slide4 .line16 {
       position: absolute;
       bottom: 5.2vw;
       right: -6px;
-      width: 20.3vw; }
+      width: 20.3vw;
+      -webkit-transition: -webkit-clip-path 1s;
+      transition: -webkit-clip-path 1s;
+      -o-transition: clip-path 1s;
+      transition: clip-path 1s;
+      transition: clip-path 1s, -webkit-clip-path 1s;
+      -webkit-clip-path: circle(0.1% at 0 0);
+      clip-path: circle(0.1% at 0 0); }
+      #media-animate-page .slide4 .line16.active {
+        -webkit-animation: open-left 1s ease 2.0s 1 normal forwards;
+        animation: open-left 1s ease 2.0s 1 normal forwards; }
   #media-animate-page .slide5 {
     background: #b7b7b7; }
     #media-animate-page .slide5 .overlay .line17 {
       position: absolute;
       top: 53.2vw;
       left: 0;
-      width: 25.3vw; }
+      width: 25.3vw;
+      -webkit-transition: -webkit-clip-path 1s;
+      transition: -webkit-clip-path 1s;
+      -o-transition: clip-path 1s;
+      transition: clip-path 1s;
+      transition: clip-path 1s, -webkit-clip-path 1s;
+      -webkit-clip-path: circle(0.1% at 0 0);
+      clip-path: circle(0.1% at 0 0); }
+      #media-animate-page .slide5 .overlay .line17.active {
+        -webkit-animation: open-left 1s ease 0.0s 1 normal forwards;
+        animation: open-left 1s ease 0.0s 1 normal forwards; }
     #media-animate-page .slide5 .overlay .line18 {
       position: absolute;
       top: 57.3vw;
       left: 2.6vw;
       width: 22.8vw;
-      z-index: 1; }
+      z-index: 1;
+      -webkit-transition: -webkit-clip-path 1s;
+      transition: -webkit-clip-path 1s;
+      -o-transition: clip-path 1s;
+      transition: clip-path 1s;
+      transition: clip-path 1s, -webkit-clip-path 1s;
+      -webkit-clip-path: circle(0.1% at 0 0);
+      clip-path: circle(0.1% at 0 0); }
+      #media-animate-page .slide5 .overlay .line18.active {
+        -webkit-animation: open-left 1s ease 0.5s 1 normal forwards;
+        animation: open-left 1s ease 0.5s 1 normal forwards; }
     #media-animate-page .slide5 .overlay .triangle-left {
       width: 14vw;
       position: absolute;
@@ -318,6 +506,7 @@
       width: 120%;
       margin-top: 0vw;
       height: 62vw;
+      margin-left: -9vw;
       background: url(images/cloud.png) no-repeat;
       background-size: contain;
       background-position-x: -10vw; }
@@ -351,12 +540,32 @@
       position: absolute;
       bottom: 59.7vw;
       right: -16.7vw;
-      width: 38.3vw; }
+      width: 38.3vw;
+      -webkit-transition: -webkit-clip-path 1s;
+      transition: -webkit-clip-path 1s;
+      -o-transition: clip-path 1s;
+      transition: clip-path 1s;
+      transition: clip-path 1s, -webkit-clip-path 1s;
+      -webkit-clip-path: circle(0.1% at 0 0);
+      clip-path: circle(0.1% at 0 0); }
+      #media-animate-page .slide6 .header .line19.active {
+        -webkit-animation: open-left 1s ease 1.5s 1 normal forwards;
+        animation: open-left 1s ease 1.5s 1 normal forwards; }
     #media-animate-page .slide6 .header .line20 {
       position: absolute;
       bottom: 69.5vw;
       right: -7px;
-      width: 12.3vw; }
+      width: 12.3vw;
+      -webkit-transition: -webkit-clip-path 1s;
+      transition: -webkit-clip-path 1s;
+      -o-transition: clip-path 1s;
+      transition: clip-path 1s;
+      transition: clip-path 1s, -webkit-clip-path 1s;
+      -webkit-clip-path: circle(0.1% at 0 0);
+      clip-path: circle(0.1% at 0 0); }
+      #media-animate-page .slide6 .header .line20.active {
+        -webkit-animation: open-left 1s ease 2.0s 1 normal forwards;
+        animation: open-left 1s ease 2.0s 1 normal forwards; }
     #media-animate-page .slide6 .circle-template.circle1 {
       position: absolute;
       display: block;
@@ -415,6 +624,7 @@
       display: block;
       width: 130%;
       margin-top: 0vw;
+      margin-left: -12vw;
       height: 101vw;
       background: url(images/cloud2.png) no-repeat;
       background-size: cover;
@@ -425,13 +635,33 @@
       top: 51.8vw;
       left: 7.5vw;
       width: 22.3vw;
-      z-index: 3; }
+      z-index: 3;
+      -webkit-transition: -webkit-clip-path 1s;
+      transition: -webkit-clip-path 1s;
+      -o-transition: clip-path 1s;
+      transition: clip-path 1s;
+      transition: clip-path 1s, -webkit-clip-path 1s;
+      -webkit-clip-path: circle(0.1% at 0 0);
+      clip-path: circle(0.1% at 0 0); }
+      #media-animate-page .slide6 .line21.active {
+        -webkit-animation: open-left 1s ease 0s 1 normal forwards;
+        animation: open-left 1s ease 0s 1 normal forwards; }
     #media-animate-page .slide6 .line22 {
       position: absolute;
-      bottom: 30.1vw;
-      left: 229px;
+      bottom: 31.1vw;
+      left: 13.5vw;
       width: 22.3vw;
-      z-index: 3; }
+      z-index: 3;
+      -webkit-transition: -webkit-clip-path 1s;
+      transition: -webkit-clip-path 1s;
+      -o-transition: clip-path 1s;
+      transition: clip-path 1s;
+      transition: clip-path 1s, -webkit-clip-path 1s;
+      -webkit-clip-path: circle(0.1% at 0 0);
+      clip-path: circle(0.1% at 0 0); }
+      #media-animate-page .slide6 .line22.active {
+        -webkit-animation: open-left 1s ease 0.5s 1 normal forwards;
+        animation: open-left 1s ease 0.5s 1 normal forwards; }
     #media-animate-page .slide6 .rocket3 {
       position: absolute;
       left: 3.1vw;
@@ -526,3 +756,19 @@
   100% {
     -webkit-transform: rotate(-360deg);
     transform: rotate(-360deg); } }
+
+@-webkit-keyframes open-left {
+  0% {
+    -webkit-clip-path: circle(0.1% at 0 0);
+    clip-path: circle(0.1% at 0 0); }
+  100% {
+    -webkit-clip-path: circle(141.4% at 0 0);
+    clip-path: circle(141.4% at 0 0); } }
+
+@keyframes open-left {
+  0% {
+    -webkit-clip-path: circle(0.1% at 0 0);
+    clip-path: circle(0.1% at 0 0); }
+  100% {
+    -webkit-clip-path: circle(141.4% at 0 0);
+    clip-path: circle(141.4% at 0 0); } }

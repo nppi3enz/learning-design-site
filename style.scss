@@ -75,6 +75,10 @@
                 top: 9.3vw;
                 left: 0;
                 width: 9vw;
+                transition: clip-path 1s;
+                clip-path: circle(0.1% at 0 0);
+                animation: open-left 1s;
+                animation-fill-mode: forwards;
             }
 
             .line2 {
@@ -82,6 +86,9 @@
                 top: 9.4vw;
                 left: 0;
                 width: 22.5vw;
+                transition: clip-path 1s;
+                clip-path: circle(0.1% at 0 0);
+                animation: open-left 1s ease 0.5s 1 normal forwards;
             }
 
             .line3 {
@@ -89,6 +96,9 @@
                 top: 19.8vw;
                 right: 0;
                 width: 21.4vw;
+                transition: clip-path 1s;
+                clip-path: circle(0.1% at 0 0);
+                animation: open-left 1s ease 1s 1 normal forwards;
             }
 
             .line4 {
@@ -96,6 +106,9 @@
                 top: 28.5vw;
                 right: 0;
                 width: 7.7vw;
+                transition: clip-path 1s;
+                clip-path: circle(0.1% at 0 0);
+                animation: open-left 1s ease 1.5s 1 normal forwards;
             }
 
             .satellite {
@@ -155,6 +168,12 @@
                 top: 20.2vw;
                 left: 0;
                 width: 20.3vw;
+                transition: clip-path 1s;
+                clip-path: circle(0.1% at 0 0);
+
+                &.active {
+                    animation: open-left 1s ease 0s 1 normal forwards;
+                }
             }
 
             .line6 {
@@ -162,6 +181,12 @@
                 top: 23.1vw;
                 left: 3.4vw;
                 width: 30.7vw;
+                transition: clip-path 1s;
+                clip-path: circle(0.1% at 0 0);
+
+                &.active {
+                    animation: open-left 1s ease 0.5s 1 normal forwards;
+                }
             }
 
             .line7 {
@@ -169,6 +194,12 @@
                 top: 53.3vw;
                 right: 0;
                 width: 22.6vw;
+                transition: clip-path 1s;
+                clip-path: circle(0.1% at 0 0);
+
+                &.active {
+                    animation: open-left 1s ease 1.0s 1 normal forwards;
+                }
             }
 
             .line8 {
@@ -176,6 +207,12 @@
                 top: 61.8vw;
                 right: 0;
                 width: 9.0vw;
+                transition: clip-path 1s;
+                clip-path: circle(0.1% at 0 0);
+
+                &.active {
+                    animation: open-left 1s ease 1.5s 1 normal forwards;
+                }
             }
 
             .four-cs {
@@ -308,18 +345,56 @@
     .slide4 {
         background: #efefef;
 
-        .line11 {
+        .line11l {
             position: absolute;
-            bottom: 52.9vw;
-            right: -9vw;
-            width: 38.3vw;
+            left: 3vw;
+            top: -20vw;
+            width: 21.3vw;
+            transition: clip-path 1s;
+            clip-path: circle(0.1% at 0 0);
+
+            &.active {
+                animation: open-left 1s ease 0.5s 1 normal forwards;
+            }
         }
 
-        .line12 {
+        .line12l {
+            position: absolute;
+            left: 0;
+            top: -24.3vw;
+            width: 25.3vw;
+            transition: clip-path 1s;
+            clip-path: circle(0.1% at 0 0);
+
+            &.active {
+                animation: open-left 1s ease 0.0s 1 normal forwards;
+            }
+        }
+
+        .line11r {
+            position: absolute;
+            bottom: 52.7vw;
+            right: -9vw;
+            width: 38.3vw;
+            transition: clip-path 1s;
+            clip-path: circle(0.1% at 0 0);
+
+            &.active {
+                animation: open-left 1s ease 1.5s 1 normal forwards;
+            }
+        }
+
+        .line12r {
             position: absolute;
             bottom: 58vw;
             right: -6px;
             width: 20.3vw;
+            transition: clip-path 1s;
+            clip-path: circle(0.1% at 0 0);
+
+            &.active {
+                animation: open-left 1s ease 2.0s 1 normal forwards;
+            }
         }
 
         .astronaut2 {
@@ -368,6 +443,12 @@
             top: 49.7vw;
             left: 0;
             width: 31.3vw;
+            transition: clip-path 1s;
+            clip-path: circle(0.1% at 0 0);
+
+            &.active {
+                animation: open-left 1s ease 0.0s 1 normal forwards;
+            }
         }
 
         .line14 {
@@ -375,6 +456,12 @@
             top: 56.7vw;
             left: 6.7vw;
             width: 21.3vw;
+            transition: clip-path 1s;
+            clip-path: circle(0.1% at 0 0);
+
+            &.active {
+                animation: open-left 1s ease 0.5s 1 normal forwards;
+            }
         }
 
         .line15 {
@@ -382,6 +469,12 @@
             bottom: -0.1vw;
             right: -9vw;
             width: 38.3vw;
+            transition: clip-path 1s;
+            clip-path: circle(0.1% at 0 0);
+
+            &.active {
+                animation: open-left 1s ease 1.5s 1 normal forwards;
+            }
         }
 
         .line16 {
@@ -389,6 +482,12 @@
             bottom: 5.2vw;
             right: -6px;
             width: 20.3vw;
+            transition: clip-path 1s;
+            clip-path: circle(0.1% at 0 0);
+
+            &.active {
+                animation: open-left 1s ease 2.0s 1 normal forwards;
+            }
         }
 
     }
@@ -402,6 +501,12 @@
                 top: 53.2vw;
                 left: 0;
                 width: 25.3vw;
+                transition: clip-path 1s;
+                clip-path: circle(0.1% at 0 0);
+
+                &.active {
+                    animation: open-left 1s ease 0.0s 1 normal forwards;
+                }
             }
 
             .line18 {
@@ -410,6 +515,12 @@
                 left: 2.6vw;
                 width: 22.8vw;
                 z-index: 1;
+                transition: clip-path 1s;
+                clip-path: circle(0.1% at 0 0);
+
+                &.active {
+                    animation: open-left 1s ease 0.5s 1 normal forwards;
+                }
             }
 
             .triangle-left {
@@ -438,6 +549,7 @@
                 width: 120%;
                 margin-top: 0vw;
                 height: 62vw;
+                margin-left: -9vw;
                 background: url(images/cloud.png) no-repeat;
                 background-size: contain;
                 background-position-x: -10vw;
@@ -490,6 +602,12 @@
                 bottom: 59.7vw;
                 right: -16.7vw;
                 width: 38.3vw;
+                transition: clip-path 1s;
+                clip-path: circle(0.1% at 0 0);
+
+                &.active {
+                    animation: open-left 1s ease 1.5s 1 normal forwards;
+                }
             }
 
             .line20 {
@@ -497,6 +615,12 @@
                 bottom: 69.5vw;
                 right: -7px;
                 width: 12.3vw;
+                transition: clip-path 1s;
+                clip-path: circle(0.1% at 0 0);
+
+                &.active {
+                    animation: open-left 1s ease 2.0s 1 normal forwards;
+                }
             }
         }
 
@@ -575,6 +699,7 @@
             display: block;
             width: 130%;
             margin-top: 0vw;
+            margin-left: -12vw;
             height: 101vw;
             background: url(images/cloud2.png) no-repeat;
             background-size: cover;
@@ -588,14 +713,26 @@
             left: 7.5vw;
             width: 22.3vw;
             z-index: 3;
+            transition: clip-path 1s;
+            clip-path: circle(0.1% at 0 0);
+
+            &.active {
+                animation: open-left 1s ease 0s 1 normal forwards;
+            }
         }
 
         .line22 {
             position: absolute;
-            bottom: 30.1vw;
-            left: 229px;
+            bottom: 31.1vw;
+            left: 13.5vw;
             width: 22.3vw;
             z-index: 3;
+            transition: clip-path 1s;
+            clip-path: circle(0.1% at 0 0);
+
+            &.active {
+                animation: open-left 1s ease 0.5s 1 normal forwards;
+            }
         }
 
         .rocket3 {
@@ -721,5 +858,15 @@
     100% {
         -webkit-transform: rotate(-360deg);
         transform: rotate(-360deg);
+    }
+}
+
+@keyframes open-left {
+    0% {
+        clip-path: circle(0.1% at 0 0);
+    }
+
+    100% {
+        clip-path: circle(141.4% at 0 0);
     }
 }
