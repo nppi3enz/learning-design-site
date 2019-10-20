@@ -8,7 +8,8 @@
         .overlay {
             .balloon {
                 position: absolute;
-                top: 9.4vw;
+                // top: 9.4vw;
+                top: 12.4vw;
                 left: 17.5vw;
                 width: 9vw;
                 z-index: 2;
@@ -25,7 +26,7 @@
             .earth {
                 display: block;
                 width: 100%;
-                background: transparent url('https://aksorn-media.herokuapp.com/images/earth.png') no-repeat;
+                background: transparent url('images/earth.png') no-repeat;
                 background-size: contain;
                 height: 22vw;
                 position: absolute;
@@ -43,7 +44,7 @@
                 height: 21vw;
                 position: absolute;
                 z-index: 3;
-                background: transparent url(https://aksorn-media.herokuapp.com/images/bg_circle.svg) no-repeat;
+                background: transparent url(images/bg_circle.svg) no-repeat;
                 background-size: contain;
 
                 .circle {
@@ -437,7 +438,7 @@
                 width: 120%;
                 margin-top: 0vw;
                 height: 62vw;
-                background: url(https://aksorn-media.herokuapp.com/images/cloud.png) no-repeat;
+                background: url(images/cloud.png) no-repeat;
                 background-size: contain;
                 background-position-x: -10vw;
             }
@@ -477,7 +478,8 @@
 
             .astronaut {
                 position: absolute;
-                top: -5.8vw;
+                // top: -5.8vw;
+                top: -7.8vw;
                 width: 34.4vw;
                 left: 31.8vw;
                 z-index: 5;
@@ -574,7 +576,7 @@
             width: 130%;
             margin-top: 0vw;
             height: 101vw;
-            background: url(https://aksorn-media.herokuapp.com/images/cloud2.png) no-repeat;
+            background: url(images/cloud2.png) no-repeat;
             background-size: cover;
             background-position-x: -17vw;
             z-index: 2;
@@ -599,7 +601,8 @@
         .rocket3 {
             position: absolute;
             left: 3.1vw;
-            bottom: 4.9vw;
+            // bottom: 4.9vw;
+            top: 50vw;
             width: 25vw;
             z-index: 4;
         }
@@ -607,14 +610,16 @@
         .astronaut3 {
             position: absolute;
             right: 0;
-            bottom: 15.5vw;
+            // bottom: 15.5vw;
+            top: 70vw;
             width: 18vw;
         }
 
         .satellite2 {
             position: absolute;
             right: 32.3vw;
-            bottom: 20.4vw;
+            // bottom: 20.4vw;
+            top: 70vw;
             width: 11vw;
             z-index: 3;
         }
