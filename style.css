@@ -443,9 +443,9 @@
         top: 12.5vw;
         left: 9.7vw;
         z-index: 2;
-        -webkit-animation: spin-back 20s linear infinite;
-        -moz-animation: spin-back 20s linear infinite;
-        animation: spin-back 20s linear infinite; }
+        -webkit-animation: spin-back 40s linear infinite;
+        -moz-animation: spin-back 40s linear infinite;
+        animation: spin-back 40s linear infinite; }
       #media-animate-page .slide3 .overlay .bg-hand .footer-hand {
         position: absolute;
         height: 12vw;
@@ -888,9 +888,9 @@
   top: 12.5vw;
   left: 9.6vw;
   z-index: 1;
-  -webkit-animation: spin 20s linear infinite;
-  -moz-animation: spin 20s linear infinite;
-  animation: spin 20s linear infinite; }
+  -webkit-animation: spin 40s linear infinite;
+  -moz-animation: spin 40s linear infinite;
+  animation: spin 40s linear infinite; }
 
 .circle-template .inner-hand {
   width: auto;
