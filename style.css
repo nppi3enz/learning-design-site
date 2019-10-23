@@ -42,18 +42,24 @@
         left: 12.8vw;
         top: 0.3vw;
         z-index: 3;
-        -webkit-animation: spin-back 10s linear infinite;
-        -moz-animation: spin-back 10s linear infinite;
-        animation: spin-back 10s linear infinite; }
+        -webkit-animation: spin-back 20s linear infinite;
+        -moz-animation: spin-back 20s linear infinite;
+        animation: spin-back 20s linear infinite; }
       #media-animate-page .slide1 .overlay .bg-circle .front {
         position: absolute;
         width: 20vw;
         left: 12.8vw;
         z-index: 4;
         top: 0.3vw;
-        -webkit-animation: spin 10s linear infinite;
-        -moz-animation: spin 10s linear infinite;
-        animation: spin 10s linear infinite; }
+        -webkit-animation: spin 20s linear infinite;
+        -moz-animation: spin 20s linear infinite;
+        animation: spin 20s linear infinite; }
+      #media-animate-page .slide1 .overlay .bg-circle .dot_overlay {
+        position: absolute;
+        width: 20vw;
+        left: 12.8vw;
+        z-index: 5;
+        top: 0.3vw; }
     #media-animate-page .slide1 .overlay .line1 {
       position: absolute;
       top: 9.3vw;
@@ -141,69 +147,146 @@
         #media-animate-page .slide2 .overlay .group-bird img.bird01 {
           width: 8vw;
           left: 16vw;
-          top: 3vw; }
+          top: 3vw;
+          -webkit-animation-name: fadeOut;
+          -webkit-animation-duration: 1s;
+          -webkit-animation: fadeOut 0.5s ease 0s 1 normal forwards;
+          animation: fadeOut 0.5s ease 0s 1 normal forwards; }
           #media-animate-page .slide2 .overlay .group-bird img.bird01.active {
-            opacity: 1; }
+            -webkit-animation-name: fadeIn;
+            -webkit-animation-duration: 1s;
+            -webkit-animation: fadeIn 0.5s ease 0s 1 normal forwards;
+            animation: fadeIn 0.5s ease 0s 1 normal forwards; }
         #media-animate-page .slide2 .overlay .group-bird img.bird02 {
           width: 4vw;
           left: 8vw;
-          top: 7vw; }
+          top: 7vw;
+          -webkit-animation-name: fadeOut;
+          -webkit-animation-duration: 1s;
+          -webkit-animation: fadeOut 0.5s ease 0s 1 normal forwards;
+          animation: fadeOut 0.5s ease 0s 1 normal forwards; }
           #media-animate-page .slide2 .overlay .group-bird img.bird02.active {
-            opacity: 1; }
+            -webkit-animation-name: fadeIn;
+            -webkit-animation-duration: 1s;
+            -webkit-animation: fadeIn 0.5s ease 0s 1 normal forwards;
+            animation: fadeIn 0.5s ease 0s 1 normal forwards; }
         #media-animate-page .slide2 .overlay .group-bird img.bird03 {
           width: 2vw;
           left: 1vw;
-          top: 12vw; }
+          top: 12vw;
+          -webkit-animation-name: fadeOut;
+          -webkit-animation-duration: 1s;
+          -webkit-animation: fadeOut 0.5s ease 0s 1 normal forwards;
+          animation: fadeOut 0.5s ease 0s 1 normal forwards; }
           #media-animate-page .slide2 .overlay .group-bird img.bird03.active {
-            opacity: 1; }
+            -webkit-animation-name: fadeIn;
+            -webkit-animation-duration: 1s;
+            -webkit-animation: fadeIn 0.5s ease 0s 1 normal forwards;
+            animation: fadeIn 0.5s ease 0s 1 normal forwards; }
         #media-animate-page .slide2 .overlay .group-bird img.bird04 {
           width: 3vw;
           left: 17vw;
-          top: 13vw; }
+          top: 13vw;
+          -webkit-animation-name: fadeOut;
+          -webkit-animation-duration: 1s;
+          -webkit-animation: fadeOut 0.5s ease 0s 1 normal forwards;
+          animation: fadeOut 0.5s ease 0s 1 normal forwards; }
           #media-animate-page .slide2 .overlay .group-bird img.bird04.active {
-            opacity: 1; }
+            -webkit-animation-name: fadeIn;
+            -webkit-animation-duration: 1s;
+            -webkit-animation: fadeIn 0.5s ease 0s 1 normal forwards;
+            animation: fadeIn 0.5s ease 0s 1 normal forwards; }
         #media-animate-page .slide2 .overlay .group-bird img.bird05 {
           width: 2vw;
           left: 8vw;
-          top: 15vw; }
+          top: 15vw;
+          -webkit-animation-name: fadeOut;
+          -webkit-animation-duration: 1s;
+          -webkit-animation: fadeOut 0.5s ease 0s 1 normal forwards;
+          animation: fadeOut 0.5s ease 0s 1 normal forwards; }
           #media-animate-page .slide2 .overlay .group-bird img.bird05.active {
-            opacity: 1; }
+            -webkit-animation-name: fadeIn;
+            -webkit-animation-duration: 1s;
+            -webkit-animation: fadeIn 0.5s ease 0s 1 normal forwards;
+            animation: fadeIn 0.5s ease 0s 1 normal forwards; }
         #media-animate-page .slide2 .overlay .group-bird img.bird06 {
           width: 1.5vw;
           left: 20vw;
-          top: 18vw; }
+          top: 18vw;
+          -webkit-animation-name: fadeOut;
+          -webkit-animation-duration: 1s;
+          -webkit-animation: fadeOut 0.5s ease 0s 1 normal forwards;
+          animation: fadeOut 0.5s ease 0s 1 normal forwards; }
           #media-animate-page .slide2 .overlay .group-bird img.bird06.active {
-            opacity: 1; }
+            -webkit-animation-name: fadeIn;
+            -webkit-animation-duration: 1s;
+            -webkit-animation: fadeIn 0.5s ease 0s 1 normal forwards;
+            animation: fadeIn 0.5s ease 0s 1 normal forwards; }
         #media-animate-page .slide2 .overlay .group-bird img.bird07 {
           width: 2vw;
           left: 14vw;
-          top: 19vw; }
+          top: 19vw;
+          -webkit-animation-name: fadeOut;
+          -webkit-animation-duration: 1s;
+          -webkit-animation: fadeOut 0.5s ease 0s 1 normal forwards;
+          animation: fadeOut 0.5s ease 0s 1 normal forwards; }
           #media-animate-page .slide2 .overlay .group-bird img.bird07.active {
-            opacity: 1; }
+            -webkit-animation-name: fadeIn;
+            -webkit-animation-duration: 1s;
+            -webkit-animation: fadeIn 0.5s ease 0s 1 normal forwards;
+            animation: fadeIn 0.5s ease 0s 1 normal forwards; }
         #media-animate-page .slide2 .overlay .group-bird img.bird08 {
           width: 2vw;
           left: 5vw;
-          top: 21vw; }
+          top: 21vw;
+          -webkit-animation-name: fadeOut;
+          -webkit-animation-duration: 1s;
+          -webkit-animation: fadeOut 0.5s ease 0s 1 normal forwards;
+          animation: fadeOut 0.5s ease 0s 1 normal forwards; }
           #media-animate-page .slide2 .overlay .group-bird img.bird08.active {
-            opacity: 1; }
+            -webkit-animation-name: fadeIn;
+            -webkit-animation-duration: 1s;
+            -webkit-animation: fadeIn 0.5s ease 0s 1 normal forwards;
+            animation: fadeIn 0.5s ease 0s 1 normal forwards; }
         #media-animate-page .slide2 .overlay .group-bird img.bird09 {
           width: 2vw;
           left: 10vw;
-          top: 23.5vw; }
+          top: 23.5vw;
+          -webkit-animation-name: fadeOut;
+          -webkit-animation-duration: 1s;
+          -webkit-animation: fadeOut 0.5s ease 0s 1 normal forwards;
+          animation: fadeOut 0.5s ease 0s 1 normal forwards; }
           #media-animate-page .slide2 .overlay .group-bird img.bird09.active {
-            opacity: 1; }
+            -webkit-animation-name: fadeIn;
+            -webkit-animation-duration: 1s;
+            -webkit-animation: fadeIn 0.5s ease 0s 1 normal forwards;
+            animation: fadeIn 0.5s ease 0s 1 normal forwards; }
         #media-animate-page .slide2 .overlay .group-bird img.bird10 {
           width: 5vw;
           left: 22vw;
-          top: 23vw; }
+          top: 23vw;
+          -webkit-animation-name: fadeOut;
+          -webkit-animation-duration: 1s;
+          -webkit-animation: fadeOut 0.5s ease 0s 1 normal forwards;
+          animation: fadeOut 0.5s ease 0s 1 normal forwards; }
           #media-animate-page .slide2 .overlay .group-bird img.bird10.active {
-            opacity: 1; }
+            -webkit-animation-name: fadeIn;
+            -webkit-animation-duration: 1s;
+            -webkit-animation: fadeIn 0.5s ease 0s 1 normal forwards;
+            animation: fadeIn 0.5s ease 0s 1 normal forwards; }
         #media-animate-page .slide2 .overlay .group-bird img.bird11 {
           width: 2.5vw;
           left: 18vw;
-          top: 27vw; }
+          top: 27vw;
+          -webkit-animation-name: fadeOut;
+          -webkit-animation-duration: 1s;
+          -webkit-animation: fadeOut 0.5s ease 0s 1 normal forwards;
+          animation: fadeOut 0.5s ease 0s 1 normal forwards; }
           #media-animate-page .slide2 .overlay .group-bird img.bird11.active {
-            opacity: 1; }
+            -webkit-animation-name: fadeIn;
+            -webkit-animation-duration: 1s;
+            -webkit-animation: fadeIn 0.5s ease 0s 1 normal forwards;
+            animation: fadeIn 0.5s ease 0s 1 normal forwards; }
     #media-animate-page .slide2 .overlay .rocket {
       position: absolute;
       left: 25.6vw;
@@ -310,18 +393,24 @@
         left: 12.8vw;
         top: 0.3vw;
         z-index: 2;
-        -webkit-animation: spin-back 10s linear infinite;
-        -moz-animation: spin-back 10s linear infinite;
-        animation: spin-back 10s linear infinite; }
+        -webkit-animation: spin-back 20s linear infinite;
+        -moz-animation: spin-back 20s linear infinite;
+        animation: spin-back 20s linear infinite; }
       #media-animate-page .slide2 .overlay .spin-circle .front {
         position: absolute;
         width: 12.3vw;
         left: 12.8vw;
         z-index: 2;
         top: 0.3vw;
-        -webkit-animation: spin 10s linear infinite;
-        -moz-animation: spin 10s linear infinite;
-        animation: spin 10s linear infinite; }
+        -webkit-animation: spin 20s linear infinite;
+        -moz-animation: spin 20s linear infinite;
+        animation: spin 20s linear infinite; }
+      #media-animate-page .slide2 .overlay .spin-circle .dot_overlay {
+        position: absolute;
+        width: 12.3vw;
+        left: 12.8vw;
+        z-index: 3;
+        top: 0.3vw; }
   #media-animate-page .slide3 {
     background: #252525; }
     #media-animate-page .slide3 .overlay .list-4c {
@@ -807,9 +896,9 @@
   width: auto;
   top: 0;
   left: 0;
-  -webkit-animation: spin 10s linear infinite;
-  -moz-animation: spin 10s linear infinite;
-  animation: spin 10s linear infinite; }
+  -webkit-animation: spin 20s linear infinite;
+  -moz-animation: spin 20s linear infinite;
+  animation: spin 20s linear infinite; }
 
 .circle-template .outer-hand {
   width: auto;
@@ -910,3 +999,35 @@
   100% {
     -webkit-clip-path: polygon(100% 0, 100% 34%, 100% 71%, 100% 100%, 0 100%, 0 75%, 57% 73%, 57% 33%, 0 32%, 0 0);
     clip-path: polygon(100% 0, 100% 34%, 100% 71%, 100% 100%, 0 100%, 0 75%, 57% 73%, 57% 33%, 0 32%, 0 0); } }
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn; }
+
+@-webkit-keyframes fadeOut {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+
+@keyframes fadeOut {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+
+.fadeOut {
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut; }

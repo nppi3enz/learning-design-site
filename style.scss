@@ -1,3 +1,15 @@
+@mixin fadeInMix {
+    -webkit-animation-name: fadeIn;
+    -webkit-animation-duration: 1s;
+    animation: fadeIn 0.5s ease 0s 1 normal forwards;
+}
+
+@mixin fadeOutMix {
+    -webkit-animation-name: fadeOut;
+    -webkit-animation-duration: 1s;
+    animation: fadeOut 0.5s ease 0s 1 normal forwards;
+}
+
 #media-animate-page {
     overflow: hidden;
     line-height: 0em;
@@ -53,9 +65,9 @@
                     left: 12.8vw;
                     top: 0.3vw;
                     z-index: 3;
-                    -webkit-animation: spin-back 10s linear infinite;
-                    -moz-animation: spin-back 10s linear infinite;
-                    animation: spin-back 10s linear infinite;
+                    -webkit-animation: spin-back 20s linear infinite;
+                    -moz-animation: spin-back 20s linear infinite;
+                    animation: spin-back 20s linear infinite;
                 }
 
                 .front {
@@ -64,9 +76,17 @@
                     left: 12.8vw;
                     z-index: 4;
                     top: 0.3vw;
-                    -webkit-animation: spin 10s linear infinite;
-                    -moz-animation: spin 10s linear infinite;
-                    animation: spin 10s linear infinite;
+                    -webkit-animation: spin 20s linear infinite;
+                    -moz-animation: spin 20s linear infinite;
+                    animation: spin 20s linear infinite;
+                }
+
+                .dot_overlay {
+                    position: absolute;
+                    width: 20vw;
+                    left: 12.8vw;
+                    z-index: 5;
+                    top: 0.3vw;
                 }
             }
 
@@ -152,13 +172,15 @@
                     position: absolute;
                     opacity: 0;
 
+
                     &.bird01 {
                         width: 8vw;
                         left: 16vw;
                         top: 3vw;
+                        @include fadeOutMix;
 
                         &.active {
-                            opacity: 1;
+                            @include fadeInMix;
                         }
                     }
 
@@ -166,9 +188,10 @@
                         width: 4vw;
                         left: 8vw;
                         top: 7vw;
+                        @include fadeOutMix;
 
                         &.active {
-                            opacity: 1;
+                            @include fadeInMix;
                         }
                     }
 
@@ -176,9 +199,10 @@
                         width: 2vw;
                         left: 1vw;
                         top: 12vw;
+                        @include fadeOutMix;
 
                         &.active {
-                            opacity: 1;
+                            @include fadeInMix;
                         }
                     }
 
@@ -186,9 +210,10 @@
                         width: 3vw;
                         left: 17vw;
                         top: 13vw;
+                        @include fadeOutMix;
 
                         &.active {
-                            opacity: 1;
+                            @include fadeInMix;
                         }
                     }
 
@@ -196,9 +221,10 @@
                         width: 2vw;
                         left: 8vw;
                         top: 15vw;
+                        @include fadeOutMix;
 
                         &.active {
-                            opacity: 1;
+                            @include fadeInMix;
                         }
                     }
 
@@ -206,9 +232,10 @@
                         width: 1.5vw;
                         left: 20vw;
                         top: 18vw;
+                        @include fadeOutMix;
 
                         &.active {
-                            opacity: 1;
+                            @include fadeInMix;
                         }
                     }
 
@@ -216,9 +243,10 @@
                         width: 2vw;
                         left: 14vw;
                         top: 19vw;
+                        @include fadeOutMix;
 
                         &.active {
-                            opacity: 1;
+                            @include fadeInMix;
                         }
                     }
 
@@ -226,9 +254,10 @@
                         width: 2vw;
                         left: 5vw;
                         top: 21vw;
+                        @include fadeOutMix;
 
                         &.active {
-                            opacity: 1;
+                            @include fadeInMix;
                         }
                     }
 
@@ -236,9 +265,10 @@
                         width: 2vw;
                         left: 10vw;
                         top: 23.5vw;
+                        @include fadeOutMix;
 
                         &.active {
-                            opacity: 1;
+                            @include fadeInMix;
                         }
 
                     }
@@ -247,9 +277,10 @@
                         width: 5vw;
                         left: 22vw;
                         top: 23vw;
+                        @include fadeOutMix;
 
                         &.active {
-                            opacity: 1;
+                            @include fadeInMix;
                         }
                     }
 
@@ -257,9 +288,10 @@
                         width: 2.5vw;
                         left: 18vw;
                         top: 27vw;
+                        @include fadeOutMix;
 
                         &.active {
-                            opacity: 1;
+                            @include fadeInMix;
                         }
                     }
                 }
@@ -369,9 +401,9 @@
                     left: 12.8vw;
                     top: 0.3vw;
                     z-index: 2;
-                    -webkit-animation: spin-back 10s linear infinite;
-                    -moz-animation: spin-back 10s linear infinite;
-                    animation: spin-back 10s linear infinite;
+                    -webkit-animation: spin-back 20s linear infinite;
+                    -moz-animation: spin-back 20s linear infinite;
+                    animation: spin-back 20s linear infinite;
                 }
 
                 .front {
@@ -380,9 +412,17 @@
                     left: 12.8vw;
                     z-index: 2;
                     top: 0.3vw;
-                    -webkit-animation: spin 10s linear infinite;
-                    -moz-animation: spin 10s linear infinite;
-                    animation: spin 10s linear infinite;
+                    -webkit-animation: spin 20s linear infinite;
+                    -moz-animation: spin 20s linear infinite;
+                    animation: spin 20s linear infinite;
+                }
+
+                .dot_overlay {
+                    position: absolute;
+                    width: 12.3vw;
+                    left: 12.8vw;
+                    z-index: 3;
+                    top: 0.3vw;
                 }
             }
         }
@@ -940,9 +980,9 @@
         width: auto;
         top: 0;
         left: 0;
-        -webkit-animation: spin 10s linear infinite;
-        -moz-animation: spin 10s linear infinite;
-        animation: spin 10s linear infinite;
+        -webkit-animation: spin 20s linear infinite;
+        -moz-animation: spin 20s linear infinite;
+        animation: spin 20s linear infinite;
     }
 
     .outer-hand {
@@ -1033,4 +1073,54 @@
     100% {
         clip-path: polygon(100% 0, 100% 34%, 100% 71%, 100% 100%, 0 100%, 0 75%, 57% 73%, 57% 33%, 0 32%, 0 0);
     }
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+
+@-webkit-keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+.fadeOut {
+    -webkit-animation-name: fadeOut;
+    animation-name: fadeOut;
 }

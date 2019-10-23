@@ -1,38 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 23.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 405 389" style="enable-background:new 0 0 405 389;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;stroke:url(#SVGID_1_);stroke-width:1.3949;stroke-miterlimit:10;}
-	.st1{fill:#AD0F0A;}
-	.st2{fill:#E32A2C;}
-	.st3{fill:#F49C24;}
-	.st4{fill:#ED7225;}
-	.st5{fill:#F2F2F2;}
-	.st6{fill:#CCCCCC;}
-	.st7{fill:#E6E6E6;}
-	.st8{fill:#B3B3B3;}
+	.st0{fill:none;stroke:url(#SVGID_1_);stroke-width:1.3948;stroke-miterlimit:9.9995;}
+	.st1{fill:#F2F2F2;}
+	.st2{fill:#CCCCCC;}
+	.st3{fill:#E6E6E6;}
+	.st4{fill:#B3B3B3;}
 </style>
-<g id="Layer_2">
-</g>
-<g id="Layer_1">
+<g>
 	
-		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="1315.9728" y1="359.1355" x2="1655.1892" y2="359.1355" gradientTransform="matrix(0.7621 0.6475 -0.6475 0.7621 -696.4957 -1041.2413)">
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="1210.5299" y1="893.101" x2="1549.7463" y2="893.101" gradientTransform="matrix(0.4548 0.8906 0.8906 -0.4548 -1219.9807 -628.5221)">
 		<stop  offset="5.314022e-03" style="stop-color:#E32A2C"/>
 		<stop  offset="0.3472" style="stop-color:#ED7225"/>
 		<stop  offset="0.9691" style="stop-color:#F49C24"/>
 	</linearGradient>
 	
-		<rect x="68.9" y="60.2" transform="matrix(0.9232 0.3842 -0.3842 0.9232 90.2643 -63.0954)" class="st0" width="268.4" height="268.4"/>
-	<circle class="st1" cx="131" cy="19.8" r="7.1"/>
-	<circle class="st2" cx="27.8" cy="266" r="7.1"/>
-	<circle class="st3" cx="275" cy="368.9" r="7.1"/>
-	<circle class="st4" cx="376.5" cy="123" r="7.1"/>
+		<rect x="68.9" y="60.2" transform="matrix(0.3842 -0.9232 0.9232 0.3842 -54.4319 307.2016)" class="st0" width="268.4" height="268.4"/>
 	<g>
-		<polygon class="st5" points="203.3,191.1 74.3,244.5 149.9,62 		"/>
-		<polygon class="st6" points="203.3,191.1 256.8,320.1 332.4,137.6 		"/>
-		<polygon class="st7" points="74.3,244.5 203.3,191.1 256.8,320.1 		"/>
-		<polygon class="st8" points="203.3,191.1 149.9,62 332.4,137.6 		"/>
+		<polygon class="st1" points="203.3,191.1 74.3,244.5 149.9,62 		"/>
+		<polygon class="st2" points="203.3,191.1 256.8,320.1 332.4,137.6 		"/>
+		<polygon class="st3" points="74.3,244.5 203.3,191.1 256.8,320.1 		"/>
+		<polygon class="st4" points="203.3,191.1 149.9,62 332.4,137.6 		"/>
 	</g>
 </g>
 </svg>

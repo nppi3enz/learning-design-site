@@ -3,28 +3,18 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 534 530" style="enable-background:new 0 0 534 530;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;stroke:url(#SVGID_1_);stroke-width:1;stroke-miterlimit:9.9996;}
-	.st1{fill:#AD0F0A;}
-	.st2{fill:#E32A2C;}
-	.st3{fill:#F49C24;}
-	.st4{fill:#ED7225;}
+	.st0{fill:none;stroke:url(#SVGID_1_);stroke-width:1;stroke-miterlimit:9.9992;}
 </style>
 <g>
 	<g>
-		<g>
-			
-				<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="90.9237" y1="-591.1683" x2="547.7217" y2="-591.1683" gradientTransform="matrix(-0.9597 0.2808 0.2808 0.9597 740.3434 742.727)">
-				<stop  offset="5.314022e-03" style="stop-color:#E32A2C"/>
-				<stop  offset="0.3472" style="stop-color:#ED7225"/>
-				<stop  offset="0.9691" style="stop-color:#F49C24"/>
-			</linearGradient>
-			
-				<rect x="86.8" y="83.9" transform="matrix(0.9561 -0.2929 0.2929 0.9561 -65.8772 90.1017)" class="st0" width="362.3" height="362.3"/>
-			<circle class="st1" cx="387.4" cy="39.8" r="9.5"/>
-			<circle class="st2" cx="42.5" cy="144.6" r="9.5"/>
-			<circle class="st3" cx="148.4" cy="490.2" r="9.5"/>
-			<circle class="st4" cx="491.5" cy="384" r="9.5"/>
-		</g>
+		
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-1028.6274" y1="787.842" x2="-571.8295" y2="787.842" gradientTransform="matrix(-0.8353 0.5496 -0.5496 -0.8353 32.4191 1362.9484)">
+			<stop  offset="5.314022e-03" style="stop-color:#E32A2C"/>
+			<stop  offset="0.3472" style="stop-color:#ED7225"/>
+			<stop  offset="0.9691" style="stop-color:#F49C24"/>
+		</linearGradient>
+		
+			<rect x="86.8" y="83.9" transform="matrix(0.9561 -0.2929 0.2929 0.9561 -65.8793 90.1082)" class="st0" width="362.3" height="362.3"/>
 	</g>
 </g>
 </svg>
