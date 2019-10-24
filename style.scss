@@ -38,7 +38,7 @@
             .earth {
                 display: block;
                 width: 100%;
-                background: transparent url('images/earth.png') no-repeat;
+                background: transparent url('https://aksorn-media.herokuapp.com/images/earth.png') no-repeat;
                 background-size: contain;
                 height: 22vw;
                 position: absolute;
@@ -56,7 +56,7 @@
                 height: 21vw;
                 position: absolute;
                 z-index: 3;
-                background: transparent url(images/bg_circle.svg) no-repeat;
+                background: transparent url(https://aksorn-media.herokuapp.com/images/bg_circle.svg) no-repeat;
                 background-size: contain;
 
                 .circle {
@@ -722,7 +722,7 @@
                 margin-top: 0vw;
                 height: 62vw;
                 margin-left: -9vw;
-                background: url(images/cloud.png) no-repeat;
+                background: url(https://aksorn-media.herokuapp.com/images/cloud.png) no-repeat;
                 background-size: contain;
                 background-position-x: -10vw;
             }
@@ -873,7 +873,7 @@
             margin-top: 0vw;
             margin-left: -12vw;
             height: 101vw;
-            background: url(images/cloud2.png) no-repeat;
+            background: url(https://aksorn-media.herokuapp.com/images/cloud2.png) no-repeat;
             background-size: cover;
             background-position-x: -17vw;
             z-index: 2;
