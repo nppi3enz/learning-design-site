@@ -14,7 +14,7 @@ $(document).ready(function () {
         var bottom_of_window = $(window).scrollTop();
         var percent = bottom_of_window * 100 / bottom_of_height
 
-        console.log(percent)
+        // console.log(percent)
         if (percent > 82) {
             $('.slide6 .line21').addClass('active')
             $('.slide6 .line22').addClass('active')
