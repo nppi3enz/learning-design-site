@@ -2,10 +2,12 @@ var bottom_of_height;
 var topMargin = 100;
 
 $(document).ready(function () {
-    // if ('scrollRestoration' in history) {
-    //     history.scrollRestoration = 'manual';
-    // }
-    // $(window).scrollTop(0);
+    $('.enllax').enllax();
+    
+    if ('scrollRestoration' in history) {
+        history.scrollRestoration = 'manual';
+    }
+    $(window).scrollTop(0);
 
     $(window).scroll(function () {
         bottom_of_height = $(document).height();
